@@ -14,7 +14,7 @@ npm install kociolekt/document-ready
 Import and invoke
 
 ```javascript
-import ready from 'kociolekt/document-ready';
+import ready from 'document-ready';
 
 ready(() => {
   document.body.appendChild(document.createElement('span'));
