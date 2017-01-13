@@ -1,4 +1,4 @@
-import documentReady from 'kociolekt/document-ready';
+import documentReady from 'document-ready';
 
 let defaults = {
   width: 100, //pixels
