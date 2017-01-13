@@ -14,7 +14,7 @@ npm install kociolekt/to-lines
 Import and invoke
 
 ```javascript
-import toLines from 'kociolekt/to-lines';
+import toLines from 'to-lines';
 
 let lines = toLines('some long text', {
   fontFamily: 'Arial, sans-serif',
