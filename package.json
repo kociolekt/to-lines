@@ -2,7 +2,7 @@
   "name": "to-lines",
   "version": "1.0.0",
   "description": "Splits text to lines using fnot-size and container width",
-  "main": "index.js",
+  "main": "es5/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "browserify -e index.js -t [ babelify --presets [ env ] ] -u node_modules -o es5/index.js"
