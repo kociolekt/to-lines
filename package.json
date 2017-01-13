@@ -1,0 +1,27 @@
+{
+  "name": "to-lines",
+  "version": "1.0.0",
+  "description": "Splits text to lines using fnot-size and container width",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kociolekt/to-lines.git"
+  },
+  "keywords": [
+    "text",
+    "to",
+    "lines"
+  ],
+  "author": "kociolekt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kociolekt/to-lines/issues"
+  },
+  "homepage": "https://github.com/kociolekt/to-lines#readme",
+  "dependencies": {
+    "document-ready": "github:kociolekt/document-ready"
+  }
+}
