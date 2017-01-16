@@ -5,7 +5,7 @@
   "main": "es5/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify -e index.js -t [ babelify --presets [ env ] ] -u node_modules -o es5/index.js"
+    "build": "node ./node_modules/babel-cli/bin/babel index.js -d es5/"
   },
   "repository": {
     "type": "git",
@@ -26,8 +26,7 @@
     "document-ready": "github:kociolekt/document-ready"
   },
   "devDependencies": {
-    "babel-preset-env": "^1.1.8",
-    "babelify": "^7.3.0",
-    "browserify": "^13.3.0"
+    "babel-cli": "^6.18.0",
+    "babel-preset-env": "^1.1.8"
   }
 }
