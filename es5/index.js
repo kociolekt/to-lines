@@ -3,6 +3,9 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
 exports.toLinesOfWords = toLinesOfWords;
 exports.default = toLines;
 
@@ -43,7 +46,7 @@ function toLinesOfWords(text, options) {
     throw new Error('First argument must be not empty string');
   }
 
-  var settings = Object.assign({}, defaults, options),
+  var settings = _extends({}, defaults, options),
       lineWidth = settings.width;
 
   var words = text.split(' ');
