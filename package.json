@@ -1,6 +1,6 @@
 {
   "name": "to-lines",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Splits text to lines using fnot-size and container width",
   "main": "es5/index.js",
   "scripts": {
