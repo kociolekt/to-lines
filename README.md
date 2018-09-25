@@ -24,3 +24,5 @@ let lines = toLines('some long text', {
 ```
 
 This is [on GitHub](https://github.com/kociolekt/to-lines) so let me know if I've b0rked it somewhere.
+
+test zmian
